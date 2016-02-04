@@ -1,0 +1,470 @@
+a
+Ext:html
+<a href="$[![]!]">$[![]!]</a>
+[>END<] !$[FingerTextData FingerTextData]@#
+ac
+Ext:html
+<a class="$[![]!]" href="$[![]!]">$[![]!]</a>
+[>END<] !$[FingerTextData FingerTextData]@#
+ai
+Ext:html
+<a id="$[![]!]" href="$[![]!]">$[![]!]</a>
+[>END<] !$[FingerTextData FingerTextData]@#
+abbr
+Ext:html
+<abbr title="$[![]!]">$[![]!]</abbr>
+[>END<] !$[FingerTextData FingerTextData]@#
+area
+Ext:html
+<area shape="$[![]!]" coords="$[![]!]" href="$[![]!]" alt="$[![]!]" />
+[>END<] !$[FingerTextData FingerTextData]@#
+article
+Ext:html
+<article>$[![]!]</article>
+[>END<] !$[FingerTextData FingerTextData]@#
+aside
+Ext:html
+<aside>$[![]!]</aside>
+[>END<] !$[FingerTextData FingerTextData]@#
+audio
+Ext:html
+<audio src="$[![]!]" controls="controls">$[![]!]</audio>
+[>END<] !$[FingerTextData FingerTextData]@#
+b
+Ext:html
+<b>$[![]!]</b>
+[>END<] !$[FingerTextData FingerTextData]@#
+base
+Ext:html
+<base href="$[![]!]" />
+[>END<] !$[FingerTextData FingerTextData]@#
+bdo
+Ext:html
+<bdo dir="$[![]!]">$[![]!]</bdo>
+[>END<] !$[FingerTextData FingerTextData]@#
+blockquote
+Ext:html
+<blockquote>$[![]!]</blockquote>
+[>END<] !$[FingerTextData FingerTextData]@#
+body
+Ext:html
+<body>$[![]!]</body>
+[>END<] !$[FingerTextData FingerTextData]@#
+br
+Ext:html
+<br />$[![]!]
+[>END<] !$[FingerTextData FingerTextData]@#
+button
+Ext:html
+<button>$[![]!]</button>
+[>END<] !$[FingerTextData FingerTextData]@#
+canvas
+Ext:html
+<canvas>$[![]!]</canvas>
+[>END<] !$[FingerTextData FingerTextData]@#
+caption
+Ext:html
+<caption>$[![]!]</caption>
+[>END<] !$[FingerTextData FingerTextData]@#
+cite
+Ext:html
+<cite>$[![]!]</cite>
+[>END<] !$[FingerTextData FingerTextData]@#
+code
+Ext:html
+<code>$[![]!]</code>
+[>END<] !$[FingerTextData FingerTextData]@#
+col
+Ext:html
+<col>$[![]!]</col>
+[>END<] !$[FingerTextData FingerTextData]@#
+colgroup
+Ext:html
+<colgroup>$[![]!]</colgroup>
+[>END<] !$[FingerTextData FingerTextData]@#
+command
+Ext:html
+<command>$[![]!]</command>
+[>END<] !$[FingerTextData FingerTextData]@#
+datalist
+Ext:html
+<datalist>$[![]!]</datalist>
+[>END<] !$[FingerTextData FingerTextData]@#
+dd
+Ext:html
+<dd>$[![]!]</dd>
+[>END<] !$[FingerTextData FingerTextData]@#
+del
+Ext:html
+<del>$[![]!]</del>
+[>END<] !$[FingerTextData FingerTextData]@#
+details
+Ext:html
+<details>$[![]!]</details>
+[>END<] !$[FingerTextData FingerTextData]@#
+dfn
+Ext:html
+<dfn>$[![]!]</dfn>
+[>END<] !$[FingerTextData FingerTextData]@#
+div
+Ext:html
+<div>$[![]!]</div>
+[>END<] !$[FingerTextData FingerTextData]@#
+divc
+Ext:html
+<div class="$[![]!]">$[![]!]</div>
+[>END<] !$[FingerTextData FingerTextData]@#
+divi
+Ext:html
+<div id="$[![]!]">$[![]!]</div>
+[>END<] !$[FingerTextData FingerTextData]@#
+dl
+Ext:html
+<dl>$[![]!]</dl>
+[>END<] !$[FingerTextData FingerTextData]@#
+dt
+Ext:html
+<dt>$[![]!]</dt>
+[>END<] !$[FingerTextData FingerTextData]@#
+em
+Ext:html
+<em>$[![]!]</em>
+[>END<] !$[FingerTextData FingerTextData]@#
+embed
+Ext:html
+<embed src="$[![]!]" />
+[>END<] !$[FingerTextData FingerTextData]@#
+fieldset
+Ext:html
+<fieldset>$[![]!]</fieldset>
+[>END<] !$[FingerTextData FingerTextData]@#
+figcaption
+Ext:html
+<figcaption>$[![]!]</figcaption>
+[>END<] !$[FingerTextData FingerTextData]@#
+figure
+Ext:html
+<figure>$[![]!]</figure>
+[>END<] !$[FingerTextData FingerTextData]@#
+footer
+Ext:html
+<footer>$[![]!]</footer>
+[>END<] !$[FingerTextData FingerTextData]@#
+form
+Ext:html
+<form action="$[![]!]">$[![]!]</form>
+[>END<] !$[FingerTextData FingerTextData]@#
+h1
+Ext:html
+<h1>$[![]!]</h1>
+[>END<] !$[FingerTextData FingerTextData]@#
+h2
+Ext:html
+<h2>$[![]!]</h2>
+[>END<] !$[FingerTextData FingerTextData]@#
+h3
+Ext:html
+<h3>$[![]!]</h3>
+[>END<] !$[FingerTextData FingerTextData]@#
+h4
+Ext:html
+<h4>$[![]!]</h4>
+[>END<] !$[FingerTextData FingerTextData]@#
+h5
+Ext:html
+<h5>$[![]!]</h5>
+[>END<] !$[FingerTextData FingerTextData]@#
+h6
+Ext:html
+<h6>$[![]!]</h6>
+[>END<] !$[FingerTextData FingerTextData]@#
+head
+Ext:html
+<head>$[![]!]</head>
+[>END<] !$[FingerTextData FingerTextData]@#
+header
+Ext:html
+<header>$[![]!]</header>
+[>END<] !$[FingerTextData FingerTextData]@#
+hgroup
+Ext:html
+<hgroup>$[![]!]</hgroup>
+[>END<] !$[FingerTextData FingerTextData]@#
+hr
+Ext:html
+<hr />$[![]!]
+[>END<] !$[FingerTextData FingerTextData]@#
+html
+Ext:html
+<!doctype html>
+<html>
+<head>
+    <title>$[![Page Title]!]</title>
+</head>
+<body>
+    $[![]!]
+</body>
+</html>
+[>END<] !$[FingerTextData FingerTextData]@#
+i
+Ext:html
+<i>$[![]!]</i>
+[>END<] !$[FingerTextData FingerTextData]@#
+iframe
+Ext:html
+<iframe src="$[![]!]">$[![]!]</iframe>
+[>END<] !$[FingerTextData FingerTextData]@#
+img
+Ext:html
+<img src="$[![]!]" alt="$[![]!]" />
+[>END<] !$[FingerTextData FingerTextData]@#
+input
+Ext:html
+<input type="$[![]!]" name="$[![]!]" />
+[>END<] !$[FingerTextData FingerTextData]@#
+ins
+Ext:html
+<ins>$[![]!]</ins>
+[>END<] !$[FingerTextData FingerTextData]@#
+keygen
+Ext:html
+<keygen name="$[![]!]" />
+[>END<] !$[FingerTextData FingerTextData]@#
+kbd
+Ext:html
+<kbd>$[![]!]</kbd>
+[>END<] !$[FingerTextData FingerTextData]@#
+label
+Ext:html
+<label for="$[![]!]">$[![]!]</label>
+[>END<] !$[FingerTextData FingerTextData]@#
+legend
+Ext:html
+<legend>$[![]!]</legend>
+[>END<] !$[FingerTextData FingerTextData]@#
+li
+Ext:html
+<li>$[![]!]</li>
+[>END<] !$[FingerTextData FingerTextData]@#
+link
+Ext:html
+<link rel="stylesheet" type="text/css" href="$[![]!]" />
+[>END<] !$[FingerTextData FingerTextData]@#
+map
+Ext:html
+<map>$[![]!]</map>
+[>END<] !$[FingerTextData FingerTextData]@#
+mark
+Ext:html
+<mark>$[![]!]</mark>
+[>END<] !$[FingerTextData FingerTextData]@#
+menu
+Ext:html
+<menu>$[![]!]</menu>
+[>END<] !$[FingerTextData FingerTextData]@#
+meta
+Ext:html
+<meta name="$[![]!]" content="$[![]!]" />
+[>END<] !$[FingerTextData FingerTextData]@#
+meter
+Ext:html
+<meter value="$[![]!]">$[![]!]</meter>
+[>END<] !$[FingerTextData FingerTextData]@#
+nav
+Ext:html
+<nav>$[![]!]</nav>
+[>END<] !$[FingerTextData FingerTextData]@#
+noscript
+Ext:html
+<noscript>$[![]!]</noscript>
+[>END<] !$[FingerTextData FingerTextData]@#
+object
+Ext:html
+<object data="$[![]!]">$[![]!]</object>
+[>END<] !$[FingerTextData FingerTextData]@#
+ol
+Ext:html
+<ol>$[![]!]</ol>
+[>END<] !$[FingerTextData FingerTextData]@#
+optgroup
+Ext:html
+<optgroup label="$[![]!]">$[![]!]</optgroup>
+[>END<] !$[FingerTextData FingerTextData]@#
+option
+Ext:html
+<option value="$[![]!]">$[![]!]</option>
+[>END<] !$[FingerTextData FingerTextData]@#
+address
+Ext:html
+<address>$[![]!]</address>
+[>END<] !$[FingerTextData FingerTextData]@#
+output
+Ext:html
+<output name="$[![]!]">$[![]!]</output>
+[>END<] !$[FingerTextData FingerTextData]@#
+p
+Ext:html
+<p>$[![]!]</p>
+[>END<] !$[FingerTextData FingerTextData]@#
+pc
+Ext:html
+<p class="$[![]!]">$[![]!]</p>
+[>END<] !$[FingerTextData FingerTextData]@#
+pi
+Ext:html
+<p id="$[![]!]">$[![]!]</p>
+[>END<] !$[FingerTextData FingerTextData]@#
+param
+Ext:html
+<param name="$[![]!]" value="$[![]!]" />
+[>END<] !$[FingerTextData FingerTextData]@#
+pre
+Ext:html
+<pre>$[![]!]</pre>
+[>END<] !$[FingerTextData FingerTextData]@#
+progress
+Ext:html
+<progress>$[![]!]</progress>
+[>END<] !$[FingerTextData FingerTextData]@#
+q
+Ext:html
+<q cite="$[![]!]">$[![]!]</q>
+[>END<] !$[FingerTextData FingerTextData]@#
+rp
+Ext:html
+<rp>$[![]!]</rp>
+[>END<] !$[FingerTextData FingerTextData]@#
+rt
+Ext:html
+<rt>$[![]!]</rt>
+[>END<] !$[FingerTextData FingerTextData]@#
+ruby
+Ext:html
+<ruby>$[![]!]</ruby>
+[>END<] !$[FingerTextData FingerTextData]@#
+s
+Ext:html
+<s>$[![]!]</s>
+[>END<] !$[FingerTextData FingerTextData]@#
+samp
+Ext:html
+<samp>$[![]!]</samp>
+[>END<] !$[FingerTextData FingerTextData]@#
+script
+Ext:html
+<script type="text/javascript">$[![]!]</script>
+[>END<] !$[FingerTextData FingerTextData]@#
+scripts
+Ext:html
+<script type="text/javascript" src="$[![]!]"></script>
+[>END<] !$[FingerTextData FingerTextData]@#
+section
+Ext:html
+<section>$[![]!]</section>
+[>END<] !$[FingerTextData FingerTextData]@#
+select
+Ext:html
+<select>$[![]!]</select>
+[>END<] !$[FingerTextData FingerTextData]@#
+small
+Ext:html
+<small>$[![]!]</small>
+[>END<] !$[FingerTextData FingerTextData]@#
+source
+Ext:html
+<source src="$[![]!]" type="$[![]!]" />
+[>END<] !$[FingerTextData FingerTextData]@#
+span
+Ext:html
+<span>$[![]!]</span>
+[>END<] !$[FingerTextData FingerTextData]@#
+spanc
+Ext:html
+<span class="$[![]!]">$[![]!]</span>
+[>END<] !$[FingerTextData FingerTextData]@#
+spani
+Ext:html
+<span id="$[![]!]">$[![]!]</span>
+[>END<] !$[FingerTextData FingerTextData]@#
+strong
+Ext:html
+<strong>$[![]!]</strong>
+[>END<] !$[FingerTextData FingerTextData]@#
+style
+Ext:html
+<style type="text/css">$[![]!]</style>
+[>END<] !$[FingerTextData FingerTextData]@#
+sub
+Ext:html
+<sub>$[![]!]</sub>
+[>END<] !$[FingerTextData FingerTextData]@#
+summary
+Ext:html
+<summary>$[![]!]</summary>
+[>END<] !$[FingerTextData FingerTextData]@#
+sup
+Ext:html
+<sup>$[![]!]</sup>
+[>END<] !$[FingerTextData FingerTextData]@#
+table
+Ext:html
+<table>$[![]!]</table>
+[>END<] !$[FingerTextData FingerTextData]@#
+tbody
+Ext:html
+<tbody>$[![]!]</tbody>
+[>END<] !$[FingerTextData FingerTextData]@#
+td
+Ext:html
+<td>$[![]!]</td>
+[>END<] !$[FingerTextData FingerTextData]@#
+textarea
+Ext:html
+<textarea>$[![]!]</textarea>
+[>END<] !$[FingerTextData FingerTextData]@#
+tfoot
+Ext:html
+<tfoot>$[![]!]</tfoot>
+[>END<] !$[FingerTextData FingerTextData]@#
+th
+Ext:html
+<th>$[![]!]</th>
+[>END<] !$[FingerTextData FingerTextData]@#
+thead
+Ext:html
+<thead>$[![]!]</thead>
+[>END<] !$[FingerTextData FingerTextData]@#
+time
+Ext:html
+<time>$[![]!]</time>
+[>END<] !$[FingerTextData FingerTextData]@#
+title
+Ext:html
+<title>$[![]!]</title>
+[>END<] !$[FingerTextData FingerTextData]@#
+tr
+Ext:html
+<tr>$[![]!]</tr>
+[>END<] !$[FingerTextData FingerTextData]@#
+ul
+Ext:html
+<ul>$[![]!]</ul>
+[>END<] !$[FingerTextData FingerTextData]@#
+var
+Ext:html
+<var>$[![]!]</var>
+[>END<] !$[FingerTextData FingerTextData]@#
+video
+Ext:html
+<video src="$[![]!]" controls="controls">$[![]!]</video>
+[>END<] !$[FingerTextData FingerTextData]@#
+wbr
+Ext:html
+<wbr>$[![]!]</wbr>
+[>END<] !$[FingerTextData FingerTextData]@#
+css
+Ext:html
+$[![selector]!] {
+	$[![/* insert css here */]!]
+}
+[>END<] !$[FingerTextData FingerTextData]@#

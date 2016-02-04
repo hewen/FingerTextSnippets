@@ -1,0 +1,135 @@
+php
+Ext:php
+<?php
+    $[![code]!]
+[>END<] !$[FingerTextData FingerTextData]@#
+c
+Ext:php
+class $[![className]!]
+{
+    $[![code]!]
+}
+[>END<] !$[FingerTextData FingerTextData]@#
+i
+Ext:php
+interface $[![interface]!]
+{
+    $[![code]!]
+}
+[>END<] !$[FingerTextData FingerTextData]@#
+this
+Ext:php
+$this->
+[>END<] !$[FingerTextData FingerTextData]@#
+f
+Ext:php
+function $[![functionName]!]($[![pram]!])
+{
+    $[![code]!]
+}
+[>END<] !$[FingerTextData FingerTextData]@#
+m
+Ext:php
+$[![protected]!] function $[![foo]!]()
+{
+    $[![code]!]
+}
+[>END<] !$[FingerTextData FingerTextData]@#
+inc
+Ext:php
+include '$[![file]!]';
+[>END<] !$[FingerTextData FingerTextData]@#
+req
+Ext:php
+require '$[![file]!]';
+[>END<] !$[FingerTextData FingerTextData]@#
+def
+Ext:php
+define('$[![FOO]!]' , $[![value]!]);
+[>END<] !$[FingerTextData FingerTextData]@#
+wh
+Ext:php
+while ($[![i]!]) {
+    $[![j]!]
+}
+[>END<] !$[FingerTextData FingerTextData]@#
+do
+Ext:php
+do {
+    $[![j]!]
+} while ($[![i]!]);
+[>END<] !$[FingerTextData FingerTextData]@#
+if
+Ext:php
+if ($[![something]!]) {
+    $[![code]!]
+}
+[>END<] !$[FingerTextData FingerTextData]@#
+el
+Ext:php
+else {
+    $[![something]!]
+}
+[>END<] !$[FingerTextData FingerTextData]@#
+eif
+Ext:php
+else if ($[![something]!]) {
+    $[![code]!]
+}
+[>END<] !$[FingerTextData FingerTextData]@#
+switch
+Ext:php
+switch ($[![variable]!]) {
+    case '$[![value]!]':
+        $[![code]!]
+        break;
+    $[![case]!]
+    default:
+        $[![code]!]
+        break;
+}
+[>END<] !$[FingerTextData FingerTextData]@#
+case
+Ext:php
+case '$[![value]!]':
+    $[![code]!]
+    break;
+[>END<] !$[FingerTextData FingerTextData]@#
+for
+Ext:php
+for ($$[![i]!] = 0; $$[![i]!] < $$[![count]!]; $$[![i]!]++}) {
+    $[![code]!]
+}
+[>END<] !$[FingerTextData FingerTextData]@#
+foreach
+Ext:php
+foreach ($$[![variable]!] as $$[![value]!]) {
+    $[![code]!]
+}
+[>END<] !$[FingerTextData FingerTextData]@#
+array
+Ext:php
+$[![arrayName]!] = array('$[![key]!]' => $[![value]!]);
+$[![code]!]
+[>END<] !$[FingerTextData FingerTextData]@#
+try
+Ext:php
+try {
+    $[![code]!]
+} catch ($[![Exception]!] $e) {
+    $[![code]!]
+}
+[>END<] !$[FingerTextData FingerTextData]@#
+pd
+Ext:php
+echo '<pre>'; var_dump($[![code]!]); echo '</pre>';
+[>END<] !$[FingerTextData FingerTextData]@#
+is
+Ext:php
+isset($[![code]!]);
+[>END<] !$[FingerTextData FingerTextData]@#
+ase
+Ext:php
+$this->assertEquals($[![expected]!], $[![actual]!]);
+$[![code]!]
+[>END<] !$[FingerTextData FingerTextData]@#

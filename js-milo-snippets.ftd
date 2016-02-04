@@ -1,0 +1,247 @@
+isqq
+Ext:js
+//<script type="text/javascript" src="http://ossweb-img.qq.com/images/js/WXJssdk.js"></script>
+var isQQ = function() {
+    var chkRes = false;
+    mqq.device.isMobileQQ(function(result) {
+        chkRes = result;
+    });
+    return chkRes;
+};
+var IS_QQ = isQQ();
+[>END<] !$[FingerTextData FingerTextData]@#
+iswx
+Ext:js
+var isWeiXin = function(){
+    var ua = window.navigator.userAgent.toLowerCase();
+    if(/micromessenger/.test(ua)){
+        return true;
+    }else{
+        return false;
+    }
+};
+var IS_WX = isWeiXin();
+[>END<] !$[FingerTextData FingerTextData]@#
+isplat
+Ext:js
+var IS_ANDROID = false,
+    IS_IPHONE = false;
+var isAndroid = function(){
+    var ua = window.navigator.userAgent.toLowerCase();
+    if (/android/.test(ua)) {
+        return true;
+    }else{
+        return false;
+    }
+};
+var isIos = function(){
+    var ua = window.navigator.userAgent.toLowerCase();
+    if (/iphone|ipad|ipod/.test(ua)) {
+        return true;
+    }else{
+        return false;
+    }
+};
+IS_IPHONE = isAndroid();
+IS_ANDROID = isIos();
+[>END<] !$[FingerTextData FingerTextData]@#
+wxurl
+Ext:js
+var url = "$[![url]!]";
+var wxLogin = 'http://open.weixin.qq.com/connect/oauth2/authorize?appid=$[![appid]!]&redirect_uri=' + encodeURIComponent(url + '?appid=$[![appid]!]&acctype=wx') + '&response_type=code&scope=snsapi_base&state=STAT&connect_redirect=1#wechat_redirect';
+$[![code]!]
+[>END<] !$[FingerTextData FingerTextData]@#
+ready
+Ext:js
+milo.ready(function() {
+    $[![code]!]
+});
+[>END<] !$[FingerTextData FingerTextData]@#
+cqqc
+Ext:js
+milo.cookie.clear('p_skey', 'qq.com', '/');
+milo.cookie.clear('p_uin', 'qq.com', '/');
+milo.cookie.clear('uin', 'qq.com', '/');
+milo.cookie.clear('luin', 'qq.com', '/');
+milo.cookie.clear('lskey', 'qq.com', '/');
+milo.cookie.clear('skey', 'qq.com', '/');
+milo.cookie.clear("IED_LOG_INFO2");
+milo.cookie.clear('IED_LOG_INFO2', 'qq.com', '/');
+[>END<] !$[FingerTextData FingerTextData]@#
+cwxc
+Ext:js
+milo.cookie.clear("openid");
+milo.cookie.clear("access_token");
+milo.cookie.clear("acctype");
+milo.cookie.clear("appid");
+milo.cookie.clear("openid", 'qq.com', '/');
+milo.cookie.clear("access_token", 'qq.com', '/');
+milo.cookie.clear("acctype", 'qq.com', '/');
+milo.cookie.clear("appid", 'qq.com', '/');
+[>END<] !$[FingerTextData FingerTextData]@#
+malert
+Ext:js
+need("biz.widget.dialog", function(dialog) {
+    alert = function(msg) {
+        dialog.alert(msg);
+    };
+});
+[>END<] !$[FingerTextData FingerTextData]@#
+alertjson
+Ext:js
+alert(JSON.stringify($[![obj]!]));
+$[![]!]
+[>END<] !$[FingerTextData FingerTextData]@#
+loginwx
+Ext:js
+need("biz.login", function(LoginManager) {
+    LoginManager.loginByWx({
+        "appId": "$[![appid]!]" //wx game appid
+    });
+});
+$[![code]!]
+[>END<] !$[FingerTextData FingerTextData]@#
+login
+Ext:js
+need("biz.login", function(LoginManager) {
+    LoginManager.checkLogin(function(userinfo) {
+        $[![login code]!]
+    }, function() {
+        $[![LoginManager.login();]!] //no login
+    });
+});
+$[![code]!]
+[>END<] !$[FingerTextData FingerTextData]@#
+wxinfo
+Ext:js
+need("biz.login",function(LoginManager){
+    LoginManager.init({
+        appConfig:{
+            //"QQBrowserAppId":"106",
+            "WxAppId":"$[![appid]!]",
+            "AppName":"$[![AppName]!]",
+            //"scope":"snsapi_userinfo", default is snsapi_userinfo
+            "LogoUrl":"$[![LogoUrl]!]"
+        }
+    });
+
+    LoginManager.checkLogin(function(user){
+        if (milo.cookie.get("acctype") == "wx"){
+            LoginManager.getUserInfoByWxOpenId({
+                "openid":milo.cookie.get("openid"),
+                "access_token":milo.cookie.get("access_token")
+            },function(wxuser){
+                console.log(JSON.stringify(wxuser));
+                var headimgurl = "wxuser.headimgurl+"/96";
+                $[![wxuser info ...]!]
+            });
+        }
+    },function(){
+        $[![LoginManager.login();]!] //no login
+    });
+});
+$[![code]!]
+[>END<] !$[FingerTextData FingerTextData]@#
+checkams
+Ext:js
+var checkAms = function(callback) {
+    need("biz.login", function(LoginManager) {
+        LoginManager.checkLogin(function() {
+            if (sArea != 2 && sArea != 1) {
+                alert("not qq or wx");
+            } else if (sPlatId != 0 && sPlatId != 1) {
+                alert("not android or ios");
+            } else if (!appid) {
+                alert('appid get error');
+            } else {
+                callback();
+            }
+        }, function() {
+            $[![LoginManager.login();]!]
+        });
+    });
+};
+$[![code]!]
+[>END<] !$[FingerTextData FingerTextData]@#
+req
+Ext:js
+milo.request("$[![url get key]!]");
+$[![code]!]
+[>END<] !$[FingerTextData FingerTextData]@#
+shareqq
+Ext:js
+//<script type="text/javascript" src="http://pub.idqqimg.com/qqmobile/qqapi.js?_bid=152"></script>
+mqq.ui.setOnShareHandler(function(type) {
+    var qqShareData = {
+        title: "$[![title]!]",
+        desc: "$[![desc]!]",
+        share_type: type,
+        share_url: "$[![share_url]!]",
+        image_url: "$[![image_url]!]",
+    };
+    switch (type + '') {
+        case '0':
+            //qq friend
+            mqq.ui.shareMessage(qqShareData, function(result) {
+            });
+            break;
+        case '1':
+            //qq zone
+            mqq.ui.shareMessage(qqShareData, function(result) {
+            });
+            break;
+        case '2':
+            //wechat
+            mqq.ui.shareMessage(qqShareData, function(result) {
+            });
+            break;
+        case '3':
+            //wechat friend
+            mqq.ui.shareMessage(qqShareData, function(result) {
+            });
+            break;
+    }
+});
+$[![code]!]
+[>END<] !$[FingerTextData FingerTextData]@#
+sharewx
+Ext:js
+//<script type="text/javascript" src="http://ossweb-img.qq.com/images/js/WXJssdk.js"></script>
+WXJssdk.init(function(wx) {
+    var wxShareData = {
+        title: "$[![title]!]",
+        desc: "$[![desc]!]",
+        link: "$[![link]!]",
+        imgUrl: "$[![imgUrl]!]",
+    };
+    wx.onMenuShareAppMessage(wxShareData); //wechat
+    wx.onMenuShareTimeline(wxShareData); //wechat friend
+    wx.onMenuShareQQ(wxShareData);
+    wx.onMenuShareWeibo(wxShareData);
+    wx.onMenuShareQZone(wxShareData);
+});
+$[![code]!]
+[>END<] !$[FingerTextData FingerTextData]@#
+setwxc
+Ext:js
+milo.cookie.set("appid", "$[![appid]!]", 600, "qq.com", "/");
+milo.cookie.set("sServiceType", "$[![sServiceType]!]", 600, "qq.com", "/");
+milo.cookie.set("acctype", "wx", 600, "qq.com", "/");
+$[![code]!]
+[>END<] !$[FingerTextData FingerTextData]@#
+setc
+Ext:js
+milo.cookie.set("$[![key]!]","$[![value]!]",$[![iExpireSec time]!],"$[![qq.com]!]","/");
+$[![code]!]
+[>END<] !$[FingerTextData FingerTextData]@#
+getc
+Ext:js
+var $[![key]!] = milo.cookie.get("$[![key]!]");
+$[![code]!]
+[>END<] !$[FingerTextData FingerTextData]@#
+clearc
+Ext:js
+milo.cookie.clear("$[![value]!] ","$[![qq.com]!]","/");
+$[![code]!]
+[>END<] !$[FingerTextData FingerTextData]@#
+

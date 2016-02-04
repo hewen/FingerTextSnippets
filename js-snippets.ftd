@@ -1,0 +1,208 @@
+kv
+Ext:js
+key: $[!["value"]!]
+[>END<] !$[FingerTextData FingerTextData]@#
+kf
+Ext:js
+key: function($[![param]!]) {
+    $[![// function body]!]
+}
+[>END<] !$[FingerTextData FingerTextData]@#
+if
+Ext:js
+if ($[![true]!]) {
+    $[![// true]!]
+}
+$[![//code]!]
+[>END<] !$[FingerTextData FingerTextData]@#
+ife
+Ext:js
+if ($[![true]!]) {
+    $[![// true]!]
+} else {
+    $[![// false]!]
+}
+[>END<] !$[FingerTextData FingerTextData]@#
+f
+Ext:js
+function($[![]!]) {
+    $[![// function body]!]
+};
+[>END<] !$[FingerTextData FingerTextData]@#
+fun
+Ext:js
+function $[![function_name]!]($[![param]!]) {
+    $[![// function body]!]
+};
+[>END<] !$[FingerTextData FingerTextData]@#
+for
+Ext:js
+for (var $[![[i]]!] = 0; $[![[i]]!] < $[![[Things]]!].length; $[![[i]]!]++) {
+    var $[![[code]]!] = $[![[Things]]!][$[![[i]]!]];
+    $[![[code]]!]
+};[>END<] !$[FingerTextData FingerTextData]@#
+switch
+Ext:js
+switch( $[![index]!] ) {
+    case $[![case1]!]:
+        $[![case code]!]
+        break;
+    default:
+        $[![default code]!]
+}
+[>END<] !$[FingerTextData FingerTextData]@#
+case
+Ext:js
+case $[![case]!]:
+    $[![case code]!]
+    break;
+$[![code]!]
+[>END<] !$[FingerTextData FingerTextData]@#
+while
+Ext:js
+while ( $[![true]!] ) {
+    $[![code]!]
+}
+[>END<] !$[FingerTextData FingerTextData]@#
+j
+Ext:js
+$("$[![selector]!]").$[![operation]!]
+[>END<] !$[FingerTextData FingerTextData]@#
+log
+Ext:js
+console.log($[![something]!]);
+$[![]!]
+[>END<] !$[FingerTextData FingerTextData]@#
+add
+Ext:js
+$("$[![obj]!]").add('$[![selector expression]!]');
+$[![]!]
+[>END<] !$[FingerTextData FingerTextData]@#
+ajax
+Ext:js
+$.ajax({
+    url: '$[![mydomain.com/url]!]',
+    type: '$[![POST]!]',
+    dataType: '$[![xml/html/script/json]!]',
+    data: $.param( $('$[![Element or Expression]!]') ),
+    complete: function (jqXHR, textStatus) {
+        $[![// callback]!]
+    },
+    success: function (data, textStatus, jqXHR) {
+        $[![// success callback]!]
+    },
+    error: function (jqXHR, textStatus, errorThrown) {
+        $[![// error callback]!]
+    }
+});
+[>END<] !$[FingerTextData FingerTextData]@#
+bind
+Ext:js
+$("$[![obj]!]").bind('$[![event name]!]', function ($[![e]!]) {
+    $[![// event handler]!]
+});
+[>END<] !$[FingerTextData FingerTextData]@#
+change
+Ext:js
+$("$[![obj]!]").change(function ($[![e]!]) {
+    $[![// event handler]!]
+});
+[>END<] !$[FingerTextData FingerTextData]@#
+click
+Ext:js
+$("$[![obj]!]").click(function ($[![e]!]) {
+    $[![// event handler]!]
+});
+[>END<] !$[FingerTextData FingerTextData]@#
+clone
+Ext:js
+$("$[![obj]!]").clone();
+$[![]!]
+[>END<] !$[FingerTextData FingerTextData]@#
+css
+Ext:js
+$("$[![obj]!]").css('$[![attribute]!]', '$[![value]!]');
+$[![]!]
+[>END<] !$[FingerTextData FingerTextData]@#
+each
+Ext:js
+$("$[![obj]!]").each(function (index) {
+    $[![this.innerHTML = this + " is the element, " + index + " is the position";]!]
+});
+[>END<] !$[FingerTextData FingerTextData]@#
+getjson
+Ext:js
+$.getJSON('$[![mydomain.com/url]!]',
+    $[![{ param1: value1 },]!]
+    function (data, textStatus, jqXHR) {
+        $[![// success callback]!]
+    }
+);
+[>END<] !$[FingerTextData FingerTextData]@#
+hasc
+Ext:js
+$("$[![obj]!]").hasClass('$[![className]!]');
+$[![]!]
+[>END<] !$[FingerTextData FingerTextData]@#
+hide
+Ext:js
+$("$[![obj]!]").hide('$[![slow/400/fast]!]');
+$[![]!]
+[>END<] !$[FingerTextData FingerTextData]@#
+hidec
+Ext:js
+$[![obj}.hide('$[![slow/400/fast]!]', function () {
+    $[![// callback]!]
+});
+[>END<] !$[FingerTextData FingerTextData]@#
+html
+Ext:js
+$("$[![obj]!]").html($[![Some text <b>and bold!</b>]!]);
+$[![]!]
+[>END<] !$[FingerTextData FingerTextData]@#
+inarr
+Ext:js
+$.inArray($[![value]!], $[![array]!]);
+$[![]!]
+[>END<] !$[FingerTextData FingerTextData]@#
+on
+Ext:js
+$("$[![obj]!]").on('$[![events]!]', '$[![selector expression]!]', function ($[![e]!]) {
+    $[![// event handler]!]
+});
+[>END<] !$[FingerTextData FingerTextData]@#
+remc
+Ext:js
+$("$[![obj]!]").removeClass('$[![class name]!]');
+$[![]!]
+[>END<] !$[FingerTextData FingerTextData]@#
+show
+Ext:js
+$("$[![obj]!]").show('$[![slow/400/fast]!]');
+$[![]!]
+[>END<] !$[FingerTextData FingerTextData]@#
+showc
+Ext:js
+$("$[![obj]!]").show('$[![slow/400/fast]!]', function () {
+    $[![// callback]!]
+});
+[>END<] !$[FingerTextData FingerTextData]@#
+text
+Ext:js
+$("$[![obj]!]").text($[!['some text']!]);
+$[![]!]
+[>END<] !$[FingerTextData FingerTextData]@#
+this
+Ext:js
+$(this)$[![]!]
+[>END<] !$[FingerTextData FingerTextData]@#
+toarr
+Ext:js
+$("$[![obj]!]").toArray();
+$[![]!]
+[>END<] !$[FingerTextData FingerTextData]@#
+val
+Ext:js
+$("$[![obj]!]").val('$[![text]!]');
+$[![]!]
+[>END<] !$[FingerTextData FingerTextData]@#
