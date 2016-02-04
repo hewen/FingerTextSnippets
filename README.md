@@ -1,2 +1,2 @@
-# FingerTextSnippets
-Finger Text Snippets
+# Finger Text Snippets
+Snippets for Notepad++ FingerText Plugin
