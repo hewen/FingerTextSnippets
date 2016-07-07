@@ -42,8 +42,8 @@ var isIos = function(){
         return false;
     }
 };
-IS_IPHONE = isAndroid();
-IS_ANDROID = isIos();
+IS_IPHONE = isIos();
+IS_ANDROID = isAndroid();
 [>END<] !$[FingerTextData FingerTextData]@#
 wxurl
 Ext:js
